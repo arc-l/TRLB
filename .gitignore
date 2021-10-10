@@ -7,3 +7,4 @@ dist
 build
 __pycache__
 .vscode
+test_file.py

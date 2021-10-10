@@ -1,4 +1,3 @@
-from timeout_decorator.timeout_decorator import timeout
 from fmrs.fmrs_planner import FMRS_Planner
 from tools.show_arrangement import show_arrangement, show_separate_arrangement
 from tools.util import generate_instance, write_a_plan, write_to_log
@@ -7,9 +6,7 @@ from planner import TRLB_components_selector
 
 
 from numpy.random import choice
-from os.path import join, dirname, abspath
 from math import sqrt, pi
-from time import time
 
 
 '''
@@ -42,18 +39,19 @@ if __name__=="__main__":
     
     # Get a plan
     planner = TRLB_components_selector(start_arr, goal_arr, Height, Width, radius, 
-    high_level='OS', 
-    primitive_plan='TBM',
+    high_level='BST', 
+    primitive_plan='RBM',
     buffer_generation='SP', 
     robust_sampling=False,
-    PP=True)
+    PP=False)
+    # Compare with BiRRT(fmRS)
+    # planner = FMRS_Planner(start_arr, goal_arr, Height, Width, radius)
 
     if len(planner.action_list) == 0:
         print("No feasible solution is found.")
         exit(0)
     else:
-        for action in planner.action_list:
-            print(action)
+        print("number of actions: ", len(planner.action_list))
 
     # Print instance
     show_arrangement(numObjs, Density, start_arr, goal_arr, HEIGHT= Height, WIDTH= Width)

@@ -7,11 +7,7 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.colors as colors
 import matplotlib.cm as cmx
 from shapely.geometry import Polygon
-import sys
-import os
 
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from tools.generate_instances import import_arrangements
 
 def getColorMap(obj_list):
     # set colormap

@@ -1,0 +1,5 @@
+numpy==1.18.5
+ujson==4.0.2
+Shapely==1.7.1
+matplotlib==2.2.4
+gurobipy==9.1.2
