@@ -6,5 +6,6 @@
 2. Make sure you are in your virtual environment. 
 3. Run `pip install -e .` to install the TRLB package and dependencies. 
 
-## Run
-1. Cylindrical Instance: `python ./disk_experiments/run_experiments.py`
+## Cylindrical Instances
+### Run
+`python ./disk_experiments/run_experiments.py`
