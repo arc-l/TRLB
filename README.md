@@ -9,3 +9,8 @@
 ## Cylindrical Instances
 ### Run
 `python ./disk_experiments/run_experiments.py`
+
+
+## Cuboid Instances
+### Run
+`python ./stick_experiments/run_experiments.py`
