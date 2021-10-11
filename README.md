@@ -25,9 +25,11 @@ Please note that the optimization for buffer generation is supported by [Gurobi]
 ### Run
 `python ./disk_experiments/run_experiments.py`
 
-
-
-
 ## Cuboid Instances
+We show a cuboid instance where the rectangles with solid boundaries represent the start arrangement and the rectangles with dashed boundaries represent the goal arrangement.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53358252/136731248-ad78ed65-506e-4a72-ab82-1dce1b6909b6.png" alt="cuboid_example"/>
+</p>
+
 ### Run
 `python ./stick_experiments/run_experiments.py`
