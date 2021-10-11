@@ -7,8 +7,25 @@
 3. Run `pip install -e .` to install the TRLB package and dependencies. 
 
 ## Cylindrical Instances
+We show a cylindrical instance where the discs with solid boundaries represent the start arrangement and the discs with dashed boundaries represent the goal arrangement.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53358252/136728746-b6e40e51-d871-462f-928b-cc3fe5ba8729.png" alt="cylindrical_example"/>
+</p>
+  
+For cylindrical objects, we present various component options for TRLB, including:
+1. **Primitive plan computation**: running buffer minimization (RBM), total buffer minimization (TBM), random order (RO); 
+2. **Buffer generation methods**: optimization (OPT), sampling (SP); 
+3. **High level planners**: one-shot (OS), forward search tree (ST), bidirectional search tree (BST); 
+4. With or without **preprocessing (PP)**.
+
+We show a demo of cylindrical instances in `./disk_experiments/run_experiments.py`
+Please note that the optimization for buffer generation is supported by [Gurobi](https://www.gurobi.com/). If you do not have a Gurobi license or do not want to apply for a Gurobi license, please always set `buffer_generation='SP'` in `run_experiments.py`.
+
 ### Run
 `python ./disk_experiments/run_experiments.py`
+
+
 
 
 ## Cuboid Instances
