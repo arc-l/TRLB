@@ -29,7 +29,7 @@ if __name__=="__main__":
     Density = 0.4
     Height = 1000
     Width = 1000
-    arrangementIDs = [10,1]
+    arrangementIDs = [1,3]
     # arrangementIDs = choice(range(20),size=2, replace=False)
     radius = sqrt(Density*Height*Width/pi/numObjs)
 

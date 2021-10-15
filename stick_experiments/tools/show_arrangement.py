@@ -39,7 +39,7 @@ def show_arrangement(numObjs, Density, start_arr, goal_arr):
     fig = plt.figure(num=None, figsize=(int(5 * WIDTH / HEIGHT), 5), dpi=120, facecolor='w', edgecolor='k')
     ax = fig.subplots()
 
-    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT)]
+    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT), (0, 0)]
     for walls in [ [wall[ii], wall[ii+1]] for ii in range(len(wall)-1)]:
         wallx = [p[0] for p in walls]
         wally = [p[1] for p in walls]
@@ -67,7 +67,7 @@ def show_stick_arrangement(numObjs, Density, start_arr, goal_arr, WL_ratio=0.3):
     fig = plt.figure(num=None, figsize=(int(5 * WIDTH / HEIGHT), 5), dpi=120, facecolor='w', edgecolor='k')
     ax = fig.subplots()
 
-    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT)]
+    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT), (0, 0)]
     for walls in [ [wall[ii], wall[ii+1]] for ii in range(len(wall)-1)]:
         wallx = [p[0] for p in walls]
         wally = [p[1] for p in walls]
@@ -93,7 +93,7 @@ def show_pose(real_poly, Length, WL_ratio, start_arr, goal_arr, real_buffer):
     fig = plt.figure(num=None, figsize=(int(5 * WIDTH / HEIGHT), 5), dpi=120, facecolor='w', edgecolor='k')
     ax = fig.subplots()
 
-    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT)]
+    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT), (0, 0)]
     for walls in [ [wall[ii], wall[ii+1]] for ii in range(len(wall)-1)]:
         wallx = [p[0] for p in walls]
         wally = [p[1] for p in walls]
@@ -126,7 +126,7 @@ def show_buffer(buffer, Length, WL_ratio, obstacle_list):
     fig = plt.figure(num=None, figsize=(int(5 * WIDTH / HEIGHT), 5), dpi=120, facecolor='w', edgecolor='k')
     ax = fig.subplots()
 
-    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT)]
+    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT), (0, 0)]
     for walls in [ [wall[ii], wall[ii+1]] for ii in range(len(wall)-1)]:
         wallx = [p[0] for p in walls]
         wally = [p[1] for p in walls]
@@ -155,7 +155,7 @@ def show_separate_stick_arrangement(numObjs, Density, start_arr, WL_ratio = 0.3)
     fig = plt.figure(num=None, figsize=(int(5 * WIDTH / HEIGHT), 5), dpi=120, facecolor='w', edgecolor='k')
     ax = fig.subplots()
 
-    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT)]
+    wall = [(0, 0), (WIDTH, 0), (WIDTH, HEIGHT), (0, HEIGHT), (0, 0)]
     for walls in [ [wall[ii], wall[ii+1]] for ii in range(len(wall)-1)]:
         wallx = [p[0] for p in walls]
         wally = [p[1] for p in walls]
