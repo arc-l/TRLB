@@ -19,10 +19,11 @@ For cylindrical objects, we present various component options for TRLB, includin
 3. **High level planners**: one-shot (OS), forward search tree (ST), bidirectional search tree (BST); 
 4. With or without **preprocessing (PP)**.
 
-We show a demo in `./disk_experiments/run_experiments.py`
+We show a demo in `TRLB/disk_experiments/run_experiments.py`
 Please note that the optimization for buffer generation is supported by [Gurobi](https://www.gurobi.com/). If you do not have a Gurobi license or do not want to apply for a Gurobi license, please always set `buffer_generation='SP'` in `run_experiments.py`.
 
 ### Run
+To run the demo, just execute `TRLB/disk_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
 `python ./disk_experiments/run_experiments.py`
 
 ## Cuboid Instances
@@ -31,7 +32,8 @@ We show a cuboid instance where the rectangles with solid boundaries represent t
   <img src="https://user-images.githubusercontent.com/53358252/136731248-ad78ed65-506e-4a72-ab82-1dce1b6909b6.png" alt="cuboid_example"/>
 </p>
 
-For cuboid instances, we currently only support `RBM-SP-BST`, using the primitive plans that minimize running buffer size,  performing buffer allocation by sampling, maintaining a bidirectional search tree, and doing so without preprocessing. a demo is shown in `./stick_experiments/run_experiments.py`.
+For cuboid instances, we currently only support `RBM-SP-BST`, using the primitive plans that minimize running buffer size,  performing buffer allocation by sampling, maintaining a bidirectional search tree, and doing so without preprocessing. a demo is shown in `TRLB/stick_experiments/run_experiments.py`.
 
 ### Run
+To run the demo, just execute `TRLB/disk_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
 `python ./stick_experiments/run_experiments.py`
