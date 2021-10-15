@@ -35,5 +35,5 @@ We show a cuboid instance where the rectangles with solid boundaries represent t
 For cuboid instances, we currently only support `RBM-SP-BST`, using the primitive plans that minimize running buffer size,  performing buffer allocation by sampling, maintaining a bidirectional search tree, and doing so without preprocessing. a demo is shown in `TRLB/stick_experiments/run_experiments.py`.
 
 ### Run
-To run the demo, just execute `TRLB/disk_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
+To run the demo, just execute `TRLB/stick_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
 `python ./stick_experiments/run_experiments.py`
