@@ -37,3 +37,15 @@ For cuboid instances, we currently only support `RBM-SP-BST`, using the primitiv
 ### Run
 To run the demo, just execute `TRLB/stick_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
 `python ./stick_experiments/run_experiments.py`
+
+## Hardware Demonstration
+TRLB is proven to be efficient on our hardware platform in various scenarios.
+
+### Comparitive Study: Cylindrical Objects
+
+https://user-images.githubusercontent.com/53358252/138213916-cd2b9283-97b4-4a28-8962-90d9a5efddc8.mp4
+
+
+### Comparitive Study: Cuboid Objects
+
+https://user-images.githubusercontent.com/53358252/138214434-d10c7bd6-f8aa-4672-93d5-ca70b8f3ec3c.mp4
