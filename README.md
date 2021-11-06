@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Tabletop Object Rearrangement with Lazy Buffer Allocation (TRLB)
 
 <!-- ![scenarios4](https://user-images.githubusercontent.com/53358252/138533080-79885ac0-7f20-465a-bc39-32e5ffe32493.gif) -->
