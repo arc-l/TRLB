@@ -1,6 +1,12 @@
 # Tabletop Object Rearrangement with Lazy Buffer Allocation (TRLB)
 
-![scenarios4](https://user-images.githubusercontent.com/53358252/138533080-79885ac0-7f20-465a-bc39-32e5ffe32493.gif)
+<!-- ![scenarios4](https://user-images.githubusercontent.com/53358252/138533080-79885ac0-7f20-465a-bc39-32e5ffe32493.gif) -->
+
+
+<video width="180" height="120" autoplay muted loop>
+    <source src="https://user-images.githubusercontent.com/53358252/140592141-7eac7f16-531a-44d4-8e14-01a55397d2ff.mp4" type="video/mp4"> 
+    <p>Your browser does not support the video tag.</p>
+</video>
 
 
 ## Setup Instruction
