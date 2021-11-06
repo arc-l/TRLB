@@ -1,16 +1,7 @@
----
-layout: default
----
-
 # Tabletop Object Rearrangement with Lazy Buffer Allocation (TRLB)
 
 <!-- ![scenarios4](https://user-images.githubusercontent.com/53358252/138533080-79885ac0-7f20-465a-bc39-32e5ffe32493.gif) -->
-
-
-<video width="180" height="120" autoplay muted loop>
-    <source src="https://user-images.githubusercontent.com/53358252/140592141-7eac7f16-531a-44d4-8e14-01a55397d2ff.mp4" type="video/mp4"> 
-    <p>Your browser does not support the video tag.</p>
-</video>
+![scenarios6](https://user-images.githubusercontent.com/53358252/140592252-3f4f5fbf-9f65-4a16-8501-6da9f4ea2e4d.gif)
 
 
 ## Setup Instruction
@@ -57,6 +48,7 @@ TRLB is proven to be efficient on our hardware platform in various scenarios.
 ### Comparitive Study: Cylindrical Objects
 
 https://user-images.githubusercontent.com/53358252/138213916-cd2b9283-97b4-4a28-8962-90d9a5efddc8.mp4
+
 
 
 ### Comparitive Study: Cuboid Objects
