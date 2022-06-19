@@ -10,9 +10,6 @@ from tools.util import deepcopy_dict, polysCollide, poly_stick
 
 
 class Labeled_Partial_Optimizer(object):
-    '''
-    Input: sampling: use sampling based buffer generation or not 
-    '''
     def __init__(self, start_arr, goal_arr, Height, Width, Length, ratio):
         self.Height = Height
         self.Width = Width

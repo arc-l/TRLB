@@ -15,8 +15,8 @@ class Bi_Directional_Search_Tree_Planner(object):
     '''
     A Bi-RRT based structure to find a valid in-place buffer plan
     Input:
-    Initial_arrangement: dict[obj id]=(x,y)
-    final_arrangement: dict[obj id]=(x,y)
+    Initial_arrangement: dict[obj id]=(x,y, theta, ...)
+    final_arrangement: dict[obj id]=(x,y, theta, ...)
     Environment Height
     Environment Width
     radius

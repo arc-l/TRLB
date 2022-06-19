@@ -14,6 +14,9 @@ from TRLB.Bi_Directional_Search_Tree_Optimization_Planner import Bi_Directional_
 
 
 def example():
+    '''
+    An example code for the stick scenario
+    '''
     # Environment Settings
     numObjs = 10
     Density = 0.3

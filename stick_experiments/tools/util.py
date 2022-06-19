@@ -194,7 +194,8 @@ def generate_instance(numObjs, Density, IDs):
             )) as f:
         data_dict = load(f)
         point_list = data_dict['point_list']
-        start_arr = {init_list[i]:tuple(p) for i, p in enumerate(point_list)}
+        # start_arr = {init_list[i]:tuple(p) for i, p in enumerate(point_list)}
+        start_arr = {init_list[i]:tuple(list(p)+[0]) for i, p in enumerate(point_list)}
         Length = data_dict['Object_Length']
         Width = data_dict['Object_Width']
         WL_ratio = float(Width)/float(Length)
@@ -209,7 +210,8 @@ def generate_instance(numObjs, Density, IDs):
             )) as f:
         data_dict = load(f)
         point_list = data_dict['point_list']
-        goal_arr = {final_list[i]:tuple(p) for i, p in enumerate(point_list)}
+        # goal_arr = {final_list[i]:tuple(p) for i, p in enumerate(point_list)}
+        goal_arr = {final_list[i]:tuple(list(p)+[0]) for i, p in enumerate(point_list)}
     
     
     return start_arr, goal_arr, WL_ratio

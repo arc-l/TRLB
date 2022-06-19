@@ -87,6 +87,10 @@ class Buffer_Sampling(object):
         return buffer_locations, float('inf')
 
     def buffer_sampling(self, buffers, buffer_current_location_dict, obs_dict):
+        '''
+        buffer_current_location_dict[objID] = (x,y,theta, 'type', length, width)
+        '''
+        
         isfeasible = False
 
         # # check previous locations
