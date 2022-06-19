@@ -1,5 +1,9 @@
 # Tabletop Object Rearrangement with Lazy Buffer Allocation (TRLB)
 
+<!-- ![scenarios4](https://user-images.githubusercontent.com/53358252/138533080-79885ac0-7f20-465a-bc39-32e5ffe32493.gif) -->
+![scenarios6](https://user-images.githubusercontent.com/53358252/140592252-3f4f5fbf-9f65-4a16-8501-6da9f4ea2e4d.gif)
+
+
 ## Setup Instruction
 
 1. It is recommended to use a virtual environment with Python 3 for this project, e.g., `conda create -n TRLB python=3.6.9`.
@@ -35,5 +39,18 @@ We show a cuboid instance where the rectangles with solid boundaries represent t
 For cuboid instances, we currently only support `RBM-SP-BST`, using the primitive plans that minimize running buffer size,  performing buffer allocation by sampling, maintaining a bidirectional search tree, and doing so without preprocessing. a demo is shown in `TRLB/stick_experiments/run_experiments.py`.
 
 ### Run
-To run the demo, just execute `TRLB/disk_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
+To run the demo, just execute `TRLB/stick_experiments/run_experiments.py` with python. For example, in the root folder of the project run the following command in the terminal.
 `python ./stick_experiments/run_experiments.py`
+
+## Hardware Demonstration
+TRLB is proven to be efficient on our hardware platform in various scenarios.
+
+### Comparitive Study: Cylindrical Objects
+
+https://user-images.githubusercontent.com/53358252/138213916-cd2b9283-97b4-4a28-8962-90d9a5efddc8.mp4
+
+
+
+### Comparitive Study: Cuboid Objects
+
+https://user-images.githubusercontent.com/53358252/138214434-d10c7bd6-f8aa-4672-93d5-ca70b8f3ec3c.mp4
