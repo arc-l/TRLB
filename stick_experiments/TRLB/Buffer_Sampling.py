@@ -43,7 +43,8 @@ class Buffer_Sampling(object):
                 buffer_locations[current_objID] = (
                     uniform(0 - min(polygon[:, 0]), self.Width - max(polygon[:, 0])), 
                     uniform(0 - min(polygon[:, 1]), self.Height - max(polygon[:, 1])),
-                    direction
+                    direction,
+                    *self.start_arr[current_objID][3:]
                     )
                 obs_dict[current_objID] = []
                 for obj_id in current_at_start:
@@ -130,7 +131,8 @@ class Buffer_Sampling(object):
                     new_location = (
                         uniform(0 - min(polygon[:, 0]), self.Width - max(polygon[:, 0])), 
                         uniform(0 - min(polygon[:, 1]), self.Height - max(polygon[:, 1])),
-                        direction
+                        direction,
+                        *self.start_arr[bufferID][3:]
                         )
                     if not self.stick_collision_check(new_location, obs_list):
                         previous_buffer_feasible = True 
