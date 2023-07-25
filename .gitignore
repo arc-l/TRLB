@@ -8,3 +8,5 @@ build
 __pycache__
 .vscode
 test_file.py
+hetrogenous_objects/pybullet/
+hetrogenous_objects/pybullet.zip

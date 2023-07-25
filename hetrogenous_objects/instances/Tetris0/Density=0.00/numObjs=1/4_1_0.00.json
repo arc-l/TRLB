@@ -1,0 +1,23 @@
+{
+  "Workspace_Density": 0,
+  "Workspace_Height": 1000,
+  "Workspace_Width": 1000,
+  "number_of_objects": 1,
+  "object_list": [
+    {
+      "Object_Shape": "tetris_T",
+      "Object_Length": 100,
+      "Object_Width": 100,
+      "initial_pose": [
+        233.2751242423702,
+        161.72287648012568,
+        2.9107241336199623
+      ],
+      "goal_pose": [
+        650.5901130020591,
+        697.7044815512372,
+        4.595141436275957
+      ]
+    }
+  ]
+}

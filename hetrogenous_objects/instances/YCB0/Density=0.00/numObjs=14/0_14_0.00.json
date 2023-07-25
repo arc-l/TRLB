@@ -1,0 +1,218 @@
+{
+  "Workspace_Density": 0,
+  "Workspace_Height": 1000,
+  "Workspace_Width": 1000,
+  "number_of_objects": 14,
+  "object_list": [
+    {
+      "Object_Shape": "YcbBanana",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        831.4463839603117,
+        454.36420686393075,
+        0.46657350814473825
+      ],
+      "goal_pose": [
+        234.107157875607,
+        842.0916998543016,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbStrawberry",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        468.9855901138954,
+        724.5787163574067,
+        1.803533151764845
+      ],
+      "goal_pose": [
+        250,
+        430,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbPear",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        191.33197788157773,
+        607.7171653855577,
+        3.6386093519395435
+      ],
+      "goal_pose": [
+        560,
+        890,
+        1.57079632679
+      ]
+    },
+    {
+      "Object_Shape": "YcbApple",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        338.42492652398084,
+        130.75238753680085,
+        3.581071073722846
+      ],
+      "goal_pose": [
+        770,
+        900,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbPeach",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        352.99822360559006,
+        437.40787779298574,
+        3.5777441319122185
+      ],
+      "goal_pose": [
+        925,
+        900,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbOrange",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        117.357377226317,
+        73.50261515464219,
+        2.7549776317695147
+      ],
+      "goal_pose": [
+        110,
+        620,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbPlum",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        446.9879481605512,
+        525.2784069149845,
+        4.0343579934233595
+      ],
+      "goal_pose": [
+        265,
+        665,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbBanana",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        670.5134306396567,
+        81.19792269079451,
+        5.881902429530277
+      ],
+      "goal_pose": [
+        234.107157875607,
+        740.0916998543016,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbStrawberry",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        711.704410812765,
+        711.8132495879798,
+        5.512468763737562
+      ],
+      "goal_pose": [
+        350,
+        430,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbPear",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        567.6600060153112,
+        840.8501959681795,
+        5.548954811876664
+      ],
+      "goal_pose": [
+        560,
+        740,
+        1.57079632679
+      ]
+    },
+    {
+      "Object_Shape": "YcbApple",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        737.3161134402361,
+        869.9572559066319,
+        5.104897876175308
+      ],
+      "goal_pose": [
+        770,
+        720,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbPeach",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        895.5795527584588,
+        128.0091361356578,
+        2.6262696108644397
+      ],
+      "goal_pose": [
+        925,
+        720,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbOrange",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        761.2583167932443,
+        291.97859605275335,
+        4.738805951554616
+      ],
+      "goal_pose": [
+        110,
+        450,
+        0
+      ]
+    },
+    {
+      "Object_Shape": "YcbPlum",
+      "Object_Length": 2000.0,
+      "Object_Width": 2000.0,
+      "initial_pose": [
+        409.7221946235301,
+        898.1215108747377,
+        3.5173101174827166
+      ],
+      "goal_pose": [
+        265,
+        545,
+        0
+      ]
+    }
+  ]
+}
