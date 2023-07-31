@@ -1,5 +1,13 @@
 # Tabletop Rearrangement of Heterogenous Objects
 
+
+## Repository Overview
+This GitHub repository contains source codes for our ICRA 2022 work TRLB and its follow-up work in IROS 2023. Each branch is dedicated to a particular paper.
+
+1. **main**: This branch contains the source codes related to **Fast High-Quality Tabletop Rearrangement in Bounded Workspace**, which is published in ICRA 2022.
+2. **heteTORO**: This branch contains the source codes related to **Effectively Rearranging Heterogeneous Objects on Cluttered Tabletops**, which is published in IROS 2023.
+
+
 ## Setup Instruction
 
 1. It is recommended to use a virtual environment with Python 3 for this project, e.g., `conda create -n HeteTORO python=3.8`.
